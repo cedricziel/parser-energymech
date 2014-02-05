@@ -1,6 +1,6 @@
 {
   "name": "parser-energymech",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "A parser for the energymech log format used by for example the ZNC IRC bouncer",
   "scripts": {},
   "repository": {
