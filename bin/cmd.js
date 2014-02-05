@@ -22,7 +22,7 @@ var THIRD_LINE = /^\[[^\]]*(\d{2}):(\d+):\d+\] \*{3} (.+)$/g;
 
 var jsonLines = [];
 
-var iS = fs.createReadStream('fixtures/example.log', {
+var iS = fs.createReadStream(opts.file, {
 	encoding: 'utf8'
 }).pipe(split());
 
