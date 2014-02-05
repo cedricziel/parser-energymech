@@ -22,7 +22,7 @@ var THIRD_LINE = /^\[[^\]]*(\d{2}):(\d+):\d+\] \*{3} (.+)$/g;
 
 var jsonLines = [];
 
-var iS = fs.createReadStream(opts.file, {
+var iS = fs.createReadStream(ops.file, {
 	encoding: 'utf8'
 }).pipe(split());
 
