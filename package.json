@@ -1,32 +1,31 @@
 {
-	"name": "parser-energymech",
-	"version": "0.0.2",
-	"description": "A parser for the energymech log format used by for example the ZNC IRC bouncer",
-	"scripts": {
-	},
-	"repository": {
-		"type": "git",
-		"url": "https://github.com/cedricziel/parser-energymech.git"
-	},
-	"keywords": [
-		"ZNC",
-		"energymech",
-		"log",
-		"parser"
-	],
-	"author": "Cedric Ziel <cedric@cedric-ziel.com>",
-	"license": "MIT",
-	"bugs": {
-		"url": "https://github.com/cedricziel/parser-energymech/issues"
-	},
-	"homepage": "https://github.com/cedricziel/parser-energymech",
-	"dependencies": {
-		"through": "~2.3.4",
-		"split": "~0.3.0",
-		"moment": "~2.5.1",
-		"stdio": "~0.1.5"
-	},
-	"bin": {
-		"energymech-parser": "./bin/cmd.js"
-	}
+  "name": "parser-energymech",
+  "version": "0.0.3",
+  "description": "A parser for the energymech log format used by for example the ZNC IRC bouncer",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/cedricziel/parser-energymech.git"
+  },
+  "keywords": [
+    "ZNC",
+    "energymech",
+    "log",
+    "parser"
+  ],
+  "author": "Cedric Ziel <cedric@cedric-ziel.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/cedricziel/parser-energymech/issues"
+  },
+  "homepage": "https://github.com/cedricziel/parser-energymech",
+  "dependencies": {
+    "through": "~2.3.4",
+    "split": "~0.3.0",
+    "moment": "~2.5.1",
+    "stdio": "~0.1.5"
+  },
+  "bin": {
+    "energymech-parser": "./bin/cmd.js"
+  }
 }

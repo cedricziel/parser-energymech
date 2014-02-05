@@ -6,9 +6,10 @@ var stdio = require('stdio');
 
 var ops = stdio.getopt(
 		{
-			"day": {key: 'd', description: 'The day for the log-file', args: 1},
-			"month": {key: 'm', description: 'The month for the log-file', args: 1},
-			"year": {key: 'y', description: 'The ear for the log-file', args: 1}
+			"day": {key: 'd', description: 'The day for the log-file', args: 1, mandatory: true},
+			"month": {key: 'm', description: 'The month for the log-file', args: 1, mandatory: true},
+			"year": {key: 'y', description: 'The ear for the log-file', args: 1, mandatory: true},
+			"file": {key: 'f', description: 'The file to process', args: 1, mandatory: true}
 		}
 );
 
